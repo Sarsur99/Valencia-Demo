@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Container, Typography, Paper, Grid } from '@mui/material';
 import { AppBar, Toolbar, IconButton } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
 import ContactForm from './contact';
 import ScrollAnimationObserver from './ScrollAnimationObserver';
 import './style.css';
@@ -26,16 +25,6 @@ const salesStyle = {
 const appBarStyle = {
   background: 'linear-gradient(45deg, #263238 30%, #FF8E53 90%)', // Gradient background
   boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.2)', // Add box shadow for dimension
-};
-
-const appBarTextStyle = {
-  fontSize: '36px', // Increase font size
-  fontWeight: '600', // Make it bold
-  color: 'white', // White text color
-  textTransform: 'uppercase', // Uppercase text
-  letterSpacing: '2px', // Adjust letter-spacing
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', // Add a subtle text shadow
-  fontFamily: 'Your-Selected-Font', // Use a custom or Google Font
 };
 
 
