@@ -148,7 +148,7 @@ function App() {
             <Grid item xs={12} sm={4}>
               <Paper elevation={3} sx={{ padding: '20px' }}>
                 <Typography variant="h5" sx={{ textAlign: 'left' }}>
-                  "Artificial-Intelligence Optimiziation is the future of vertically integrated automotive design, and Valencia AI is paving the way."
+                  "Utilizing an impressive suite of AI based analytical tools, Valencia AI transforms the logistical capabilities of our state of the art assembly locations."
                 </Typography>
                 <img src={lotus} alt="lotus" style={salesStyle} />
               </Paper>
