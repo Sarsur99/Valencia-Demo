@@ -8,7 +8,8 @@ import valen from './images/valen.png'
 import factory from './images/factory.jpg'
 import sales from './images/Salesforce.com_logo.png'
 import zen from './images/Zendesk-Logo.png'
-import eco from './images/eco-tek.png'
+import lotus from './images/lotus.png'
+
 import Brightness4Icon from '@mui/icons-material/Brightness4'; // Icon for the lightbulb button
 
 
@@ -30,7 +31,7 @@ const appBarStyle = {
 
 function App() {
   // State variable to track dark mode status
-  
+
   const [darkMode, setDarkMode] = useState(false);
 
   // Function to toggle dark mode
@@ -104,13 +105,12 @@ function App() {
               <Grid container spacing={3}>
                 <Grid item xs={12}>
                   <Typography variant="body1" sx={{ textAlign: 'left' }}>
-                    Welcome to Valencia AI! We are passionate about driving innovation in the field of artificial intelligence and transforming the auto manufacturing industry. Founded in 2021 in San Diego County, Valencia AI strives to create cutting-edge solutions that revolutionize the way vehicles are designed, manufactured, and brought to market
+                    Welcome to Valencia AI, a visionary force in the realm of automotive artificial intelligence. At Valencia AI, our commitment to driving innovation knows no bounds, as we tirelessly endeavor to reshape the landscape of the auto manufacturing industry. Our mission is rooted in the belief that the fusion of artificial intelligence and automotive technology can herald a new era of efficiency, sustainability, and exceptional user experiences.
                   </Typography>
                 </Grid>
                 <Grid item xs={12}>
                   <Typography variant="body1" sx={{ textAlign: 'left' }}>
-                    Our dedicated team of experts, engineers, and researchers is committed to pushing the boundaries of innovation. Our mission is to bring about a sustainable and intelligent future for the automotive industry by harnessing the power of AI and technology. With never before seen methods of artificial vertical integration, Valencia AI is setting forth a new trajectory for in house program development for both manufacturers and distributors alike.
-                  </Typography>
+                    At Valencia AI, we stand at the forefront of the evolution of vehicle design. Our state-of-the-art AI technologies allow us to analyze and interpret vast amounts of data, enabling us to create sleek, functional, and environmentally conscious vehicle designs that meet the ever-changing demands of the market. Our creative approach to design is underpinned by the belief that form should seamlessly merge with function to provide exceptional driving experiences.                  </Typography>
                 </Grid>
                 <Grid item xs={12}>
                   <Button href="#contact" variant="contained" color="primary">
@@ -148,9 +148,9 @@ function App() {
             <Grid item xs={12} sm={4}>
               <Paper elevation={3} sx={{ padding: '20px' }}>
                 <Typography variant="h5" sx={{ textAlign: 'left' }}>
-                  "Following the aquisiticion of Eco-Tek Group LLC; Valencia AI group LLC has confirmed a change of ETEK's business model, redirecting its focus to Next Generation AI and AI technologies" 
+                  "Artificial-Intelligence Optimiziation is the future of vertically integrated automotive design, and Valencia AI is paving the way."
                 </Typography>
-                <img src={eco} alt="eco" style={salesStyle} />
+                <img src={lotus} alt="lotus" style={salesStyle} />
               </Paper>
             </Grid>
           </Grid>
